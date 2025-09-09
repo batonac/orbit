@@ -50,6 +50,11 @@ The first time you build, you'll need to get the correct `cargoHash`:
 3. Update the `cargoHash` in `flake.nix`
 4. Run `nix build .#orbit` again
 
+**Automated Setup**: Use the validation script for guided setup:
+```bash
+./scripts/validate_nix_flake.sh
+```
+
 ## Cross-Platform Support
 
 This flake supports building on:

@@ -2,3 +2,7 @@
 configs-test*
 test-*
 /volumes
+
+# Nix build artifacts
+result
+result-*

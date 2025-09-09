@@ -57,10 +57,17 @@ Orbit is a simple, lightweight solution for scaling containers with built-in ser
 
 ### Quick Installation
 
+#### Option 1: Pre-built Binaries
 - Download the latest release
     - https://github.com/AirPipeIO/orbit/releases
 - Start Orbit
     - orbit -c /path/to/configs
+
+#### Option 2: Build with Nix (NixOS/Nix users)
+- Build: `nix build .#orbit`
+- Develop: `nix develop`  
+- Run: `nix run .#orbit -- --help`
+- See [NIX_FLAKE_USAGE.md](NIX_FLAKE_USAGE.md) for detailed instructions
 
 ### Basic Configuration
 
